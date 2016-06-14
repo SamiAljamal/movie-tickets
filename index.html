@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <div>
+      <form id="movieTitle">
+        <div id="ageEntry">
+          <input type="number" name="userAge" value="" id="userAge">
+          <label for="userAge">Please enter your age.</label>
+          </input>
+        </div>
+        <div id="timeEntry" class="dropdown">
+          <select  id="time">
+            <option>11:00 AM</option>
+            <option>12:00 PM</option>
+            <option>1:00 PM</option>
+            <option>2:00 PM</option>
+            <option>3:00 PM</option>
+            <option>4:00 PM</option>
+            <option>5:00 PM</option>
+            <option>6:00 PM</option>
+            <option>7:00 PM</option>
+            <option>8:00 PM</option>
+            <option>9:00 PM</option>
+          </select>
+          <label for="userTime">Please enter a time.</label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="movie" value="centralint" checked>
+            <img src="img/centralintelligence.jpg" alt="Central Intelligence">
+          </label>
+          <label>
+            <input type="radio" name="movie" value="conjuring" checked>
+            <img src="img/conjuring2.jpg" alt="Conjuring 2">
+          </label>
+          <label>
+            <input type="radio" name="movie" value="findingdory" checked>
+            <img src="img/findingdory.jpg" alt="Finding Dory">
+          </label>
+          <label>
+            <input type="radio" name="movie" value="indep" checked>
+            <img src="img/independenceday.jpg" alt="Indpendence Day">
+          </label>
+          <label>
+            <input type="radio" name="movie" value="nowyousee" checked>
+            <img src="img/nowyouseeme2.jpg" alt="Now You See Me">
+          </label>
+          <label>
+            <input type="radio" name="movie" value="warcraft" checked>
+            <img src="img/warcraft.jpg" alt="Warcraft">
+          </label>
+        </div>
+        <button type="submit" name="button">Submit</button>
+      </form>
+    </div>
+    <div>
+        <ul id="movieOutput">
+
+        </ul>
+    </div>
+  </body>
+</html>
